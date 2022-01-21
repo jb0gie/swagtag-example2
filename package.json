@@ -1,5 +1,5 @@
 {
-  "name": "ethereum-boilerplate",
+  "name": "swagape",
   "version": "0.1.0",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && echo swagape.avax.ga > ./build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "devchain": "node Truffle/scripts/devChain.js",
